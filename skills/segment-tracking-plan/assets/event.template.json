@@ -1,0 +1,27 @@
+{
+  "key": "<nome_do_evento>",
+  "type": "TRACK",
+  "version": 1,
+  "json_schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "<Descrição do evento: o que é / quando dispara. Vem do mural.>",
+    "type": "object",
+    "properties": {
+      "properties": {
+        "type": "object",
+        "properties": {
+          "application_name":    { "type": "string", "description": "<...>", "enum": ["<valor_do_mural>"] },
+          "application_feature": { "type": "string", "description": "<...>" },
+          "application_page":    { "type": "string", "description": "<...>" },
+          "surface":             { "type": "string", "description": "<...>", "enum": ["<valor_do_mural>"] },
+          "app_version":         { "type": "string", "description": "<...>" },
+          "session_id":          { "type": "string", "description": "<...>" },
+          "<user_id_do_produto>":{ "type": "string", "description": "<...>" },
+          "<cross_ecossistema_id>": { "type": "string", "description": "<...>" },
+          "button_name":         { "type": "string", "description": "<...>", "enum": ["<valor_EXATO_do_mural>"] }
+        },
+        "required": ["application_name", "application_feature", "application_page", "surface", "session_id"]
+      }
+    }
+  }
+}
