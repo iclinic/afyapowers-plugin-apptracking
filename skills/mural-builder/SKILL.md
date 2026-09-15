@@ -1,5 +1,5 @@
 ---
-name: martech-mural-builder
+name: mural-builder
 description: "Transforma requisitos de produto (objetivo, contexto, perguntas de negócio e acionáveis, fluxos, wireframes, screenshots, telas do Miro, diagramas) em uma especificação de tracking de CDP/Segment e materializa num board do Miro, no template padrão da Afya (frame por funcionalidade, doc de necessidade de produto, telas numeradas, tabela de eventos). Use SEMPRE que o usuário pedir para documentar, especificar, mapear ou planejar o tracking de uma funcionalidade/jornada nova, ou criar um board de tracking no Miro do zero — mesmo sem citar Miro (ex.: 'documenta o tracking dessa tela', 'mapeia os eventos dessa jornada'). DIFERENTE de martech-event-review (avalia tabela JÁ existente) e segment-tracking-plan (instrumenta via IaC mural JÁ especificado) — aqui o foco é GERAR a spec e o board pela primeira vez. Ao final, encadeia automaticamente a martech-event-review sobre a tabela recém-criada."
 ---
 

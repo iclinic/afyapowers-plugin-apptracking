@@ -1,5 +1,5 @@
 ---
-name: martech-event-review
+name: event-review
 description: Avalia a nomenclatura E a completude de eventos de tracking (MarTech/analytics) contra o padrão da Afya (nomenclatura, eventos globais x locais, métodos de chamada e propriedades obrigatórias). Opera em dois modos - no board do Miro, escrevendo o parecer na coluna Feedback Claude, ou pelo tráfego real em raw_tracking_prod cruzado com o tracking plan em IaC, quando não há mural ou quando o produto já está instrumentado. Use SEMPRE que o usuário pedir para revisar, validar, avaliar ou dar feedback sobre nomes de eventos, propriedades ou tabelas de eventos e tracking, mesmo que não cite a palavra nomenclatura explicitamente (por exemplo, avalia os eventos do board, esses nomes estão no padrão, revisa o tracking dessa tela, os eventos do prescription_segment estão certos, avalia sem o Miro). Também use quando o usuário colar as regras ou a documentação de tracking e pedir para aplicá-las.
 ---
 
