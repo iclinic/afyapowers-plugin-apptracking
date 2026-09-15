@@ -1,0 +1,9 @@
+{
+  "name": "afyapowers-apptracking",
+  "description": "Skills for app tracking",
+  "version": "1.0.0",
+  "author": {
+    "name": "Liam Teixeira de Melo",
+    "email": "liam.melo@afya.com.br"
+  }
+}
